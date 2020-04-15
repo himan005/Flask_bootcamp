@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Information Page {% endblock %}
+{% block content %}
+    <h1>This is Information</h1>
+    <h1>{{ name|capitalize }}</h1>
+    <a href = '{{ url_for('static', filename = 'sourcefile.jpg')}}
+{% endblock %}
